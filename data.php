@@ -5,10 +5,10 @@
 $live_video = trim($_GET["live_video"]);
   if(!empty($live_video)){
  
-define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'tools');
-define('DB_PASSWORD', 'x@XaDf4bdQeekka');
-define('DB_NAME', 'tools');
+define('DB_SERVER', 'niscambodia.com');
+define('DB_USERNAME', 'panel');
+define('DB_PASSWORD', 'GyocgEktH3YjkdMa');
+define('DB_NAME', 'panel');
 
 /* Attempt to connect to MySQL database */
 $connect = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
